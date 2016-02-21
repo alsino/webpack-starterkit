@@ -2,7 +2,7 @@
 
 A lightweight foundation for your next webpack based frontend project.
 
-Based on [Webkid](http://webkid.io/)’s [yet-another-webpack-es6-starterkit](https://github.com/wbkd/yet-another-webpack-es6-starterkit) but extended by Jade
+Based on [Webkid](http://webkid.io/)’s [yet-another-webpack-es6-starterkit](https://github.com/wbkd/yet-another-webpack-es6-starterkit) but extended with Jade support (with seperated variables file) and some CSS.
 
 ### Installation
 

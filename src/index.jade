@@ -1,0 +1,48 @@
+- var props = htmlWebpackPlugin.options.props
+
+doctype html(lang='en')
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+  title Template
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600', rel='stylesheet', type='text/css')
+body
+  .page
+    h1 Website Template
+    h2
+      | Compiled with 
+      a(href="https://webpack.github.io/") Webpack
+      |  with 
+      a(href="https://github.com/webpack/docs/wiki/hot-module-replacement-with-webpack") Hot Module Replacement
+    .pure-g
+      .pure-u-1.pure-u-md-1-3
+        h3 HTML in Jade
+        ul
+          li
+            a(href="http://jade-lang.com/") Jade
+            |  templating for HTML
+      .pure-u-1.pure-u-md-1-3
+        h3 CSS in SCSS
+        ul
+          li
+            a(href="https://necolas.github.io/normalize.css/") Normalize.css
+            |  included
+          li
+            a(href="http://purecss.io/") PureCSS
+            |  included
+      .pure-u-1.pure-u-md-1-3
+        h3 JS in ES6
+        ul
+          li
+            a(href="https://github.com/lukehoban/es6features/blob/master/README.md") Modern JavaScript
+            |  comiled with 
+            a(href="https://babeljs.io/") Babel
+    h4
+      | Based on 
+      a(href="http://webkid.io/") Webkid
+      | ’s 
+      a(href="https://github.com/wbkd/yet-another-webpack-es6-starterkit") yet-another-webpack-es6-starterkit
+    h4
+      | Build by 
+      a(href=props.url) #{props.name}

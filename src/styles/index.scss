@@ -1,0 +1,28 @@
+@import '~normalize.css/normalize.css';
+@import '~purecss/build/grids.css';
+@import '~purecss/build/grids-responsive.css';
+@import './variables.scss';
+
+body {
+  color: $color-font-default;
+  font-family: $font-default;
+  font-weight: $weight-default;
+  margin: $margin-default;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: $color-link-default;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color-link-default-hover;
+  }
+}

@@ -2,7 +2,7 @@
 
 A lightweight foundation for your next webpack based frontend project.
 
-Based on [Webkid](http://webkid.io/)’s [yet-another-webpack-es6-starterkit](https://github.com/wbkd/yet-another-webpack-es6-starterkit) but extended with Jade support (with seperated variables file) and some CSS.
+Based on [Webkid](http://webkid.io/)’s [yet-another-webpack-es6-starterkit](https://github.com/wbkd/yet-another-webpack-es6-starterkit) but extended with Jade support (with separated YAML file) and some CSS.
 
 ### Installation
 
@@ -32,6 +32,7 @@ npm run build
 ### New Features:
 
 * [Normalize.CSS](https://necolas.github.io/normalize.css/) and [PureCSS](http://purecss.io/) integrated
-* Jade Support via [jade-loader](https://github.com/webpack/jade-loader) (no HMR yet)
+* Jade support via [jade-loader](https://github.com/webpack/jade-loader) (no HMR yet)
+* [YAML](http://www.yaml.org/spec/1.2/spec.html) support via [yaml-loader](https://github.com/okonet/yaml-loader) (no HMR yet)
 
 When you run `npm run build` we use the [extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin) to move the css to a separate file and included in the head of your `index.html`, so that the styles are applied before any javascript gets loaded. We disabled this function for the dev version, because the loader doesn't support hot module replacement.

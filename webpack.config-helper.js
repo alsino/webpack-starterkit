@@ -5,7 +5,7 @@ const Webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ExtractSASS = new ExtractTextPlugin('styles/bundle.css');
-const settings = require('./src/settings.json');
+// var settings = require("json!yaml!./src/settings.yml");
 
 module.exports = (options) => {
 
@@ -27,8 +27,7 @@ module.exports = (options) => {
         }
       }),
       new HtmlWebpackPlugin({
-        template: "jade!./src/index.jade",
-        props: settings
+        template: "jade!./src/index.jade"
       })
     ],
     module: {

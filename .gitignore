@@ -37,3 +37,6 @@ jspm_packages
 
 # Builds
 dist
+
+# System files
+.DS_Store

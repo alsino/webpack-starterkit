@@ -57,7 +57,8 @@
     "webpack-dev-server": "^1.14.1",
     "jade": "^1.11.0",
     "purecss": "^0.6.0",
-    "normalize.css": "^3.0.3"
+    "normalize.css": "^3.0.3",
+    "yaml-loader": "^0.1.0"
   },
   "dependencies": {
     "babel-polyfill": "^6.5.0"

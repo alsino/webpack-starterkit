@@ -1,4 +1,4 @@
-- var props = htmlWebpackPlugin.options.props
+- var props = require("json!yaml!./settings.yml")
 
 doctype html(lang='en')
 head
@@ -45,4 +45,8 @@ body
       a(href="https://github.com/wbkd/yet-another-webpack-es6-starterkit") yet-another-webpack-es6-starterkit
     h4
       | Build by 
-      a(href=props.url) #{props.name}
+      a(href=props.author.url) #{props.author.name}
+    p Missing features:
+      ul
+      each val in props.list
+        li!= val

@@ -7,18 +7,13 @@ Based on [Webkid](http://webkid.io/)’s [yet-another-webpack-es6-starterkit](ht
 ### Installation
 
 1. Clone this repo using `git clone https://github.com/z3to/webpack-starterkit.git`.
-
-2. Delete the existing git repository by running `rm -rf .git`.
-
-3. Initialize a new git repository with `git init`, `git add .` and `git commit -m "Initial commit"`.
-
-4. Run `npm install` to install the dependencies.
-
-5. Run `npm run dev` to start the local web server.
-
-6. Go to `http://localhost:1337` and you should see the app running!
-
-7. Run `npm run build` to build a deployment ready website.
+2. Change the folder name and `cd foo`
+3. Delete the existing git repository by running `rm -rf .git`.
+4. Initialize a new git repository with `git init`, `git add .` and `git commit -m "Initial commit"`.
+5. Run `npm install` to install the dependencies.
+6. Run `npm run dev` to start the local web server.
+7. Go to `http://localhost:1337` and you should see the app running!
+8. Run `npm run build` to build a deployment ready website.
 
 ### Features:
 

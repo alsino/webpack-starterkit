@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Slim Webpack Starterkit with ES6, SCSS, Jade, HMR, Normalize, PureCSS",
   "scripts": {
-    "build": "webpack --config webpack-prod.config.js --colors",
-    "dev": "webpack-dev-server --config webpack-dev.config.js --watch --colors"
+    "build": "rm -rf dist && webpack --config webpack-prod.config.js --colors",
+    "dev": "rm -rf dist && webpack-dev-server --config webpack-dev.config.js --watch --colors"
   },
   "repository": {
     "type": "git",
